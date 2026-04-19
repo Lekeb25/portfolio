@@ -1,0 +1,62 @@
+.section {
+  background-color: var(--bg-primary);
+  border-bottom: 1px solid var(--border);
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+@media (max-width: 700px) {
+  .list {
+    max-width: 100%;
+  }
+}
+
+.item {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-md);
+  padding: 18px 20px;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 6px;
+}
+
+.title {
+  font-size: var(--text-lg);
+  font-weight: 500;
+  color: #eeeeee;
+}
+
+.date {
+  flex-shrink: 0;
+  font-size: 11px;
+  color: var(--accent);
+  font-weight: 500;
+  background-color: var(--accent-dim);
+  border: 1px solid var(--accent-border);
+  padding: 3px 10px;
+  border-radius: 20px;
+}
+
+.school {
+  font-size: var(--text-sm);
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+
+.description {
+  font-size: var(--text-md);
+  color: #a6a6a6;
+  line-height: 1.65;
+}

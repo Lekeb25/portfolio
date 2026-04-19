@@ -1,0 +1,22 @@
+.footer {
+  background-color: #040404;
+  border-top: 1px solid #151515;
+  padding: 18px 0;
+  margin-top: 60px;
+}
+
+.inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left,
+.right {
+  font-size: 11px;
+  color: #444;
+}
+
+.accent {
+  color: var(--accent);
+}
