@@ -13,7 +13,7 @@ const items: EducationItem[] = [
     school: 'Hochschule Worms · Germany',
     date: '03/2024 – Present',
     description:
-      'Currently in my 5th semester. Core modules: Software Engineering, Software Architecture, Web Development, Databases, Fullstack Applications, and Advanced Programming Concepts.',
+      'Currently in my 5th semester. Relevant focus: Software Engineering, Software Architecture, Web Development, Databases, Fullstack Applications, and Advanced Programming Concepts.',
   },
   {
     title: 'German Language Program (A1–C1, TestDaF Certified)',

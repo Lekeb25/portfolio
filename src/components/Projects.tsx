@@ -18,10 +18,10 @@ const projects: Project[] = [
     type: 'DevOps · Social Media',
     title: 'Mastodon — Hochschule Worms',
     description:
-      'Deployment and operation of the official Mastodon instance of Hochschule Worms — a federated social network hosted on the university\'s own servers, moderated by students.',
+      'Deployment and operation of the official Mastodon instance of Hochschule Worms — a federated social network hosted on university servers. Designed and managed the platform end-to-end, including infrastructure setup, moderation workflows, and system monitoring.',
     impact:
-      'Giving a university its own social network means full control over data, privacy, and community. Students built, deployed, and managed the platform end-to-end — earning the Best Team Award for project execution. Covers CI/CD pipelines, incident management, and live moderation.',
-    techs: ['Docker', 'GitLab CI/CD', 'Linux-Server', 'PostgreSQL'],
+      'Provided the university with full control over data, privacy, and community management. Built and operated by a Scrum team, covering CI/CD pipelines, incident handling, and live moderation.\n\nAwarded Best Team Project (2026). Team of 7 · Duration: 8 weeks.',
+    techs: ['Docker', 'GitLab CI/CD', 'Linux', 'PostgreSQL'],
     repo: 'https://github.com/Lekeb25',
     demo: 'https://m.it.hs-worms.de/public/local',
     image: '/projects/mastodon.png',
@@ -31,9 +31,9 @@ const projects: Project[] = [
     type: 'Fullstack · E-Commerce',
     title: 'Skincare Online Shop',
     description:
-      'A complete fullstack e-commerce platform for cosmetic products — featuring a customer-facing shop and a full admin dashboard for managing users, products, and orders.',
+      'Fullstack e-commerce platform with a customer-facing shop and an admin dashboard for managing users, products, and orders. Built with a clear separation between frontend and backend, focusing on maintainability and scalability.',
     impact:
-      'Built as a real-world fullstack system: Angular frontend, Node.js/TypeScript REST API backend, with both MongoDB and PostgreSQL databases. Users can browse, order, and manage their accounts — admins control the entire catalogue and order flow.',
+      'Implements a structured fullstack architecture with authentication, role-based access, and database integration. Demonstrates real-world application design, API development, and data management across multiple systems.\n\nTeam of 4 · Duration: SOSE 2025.',
     techs: ['Angular', 'Node.js', 'TypeScript', 'MongoDB', 'PostgreSQL', 'Express'],
     repo: 'https://github.com/Lekeb25/fullstack_sose25',
     demo: 'https://davinshop.netlify.app/',
@@ -43,9 +43,9 @@ const projects: Project[] = [
     type: 'Frontend · Education',
     title: 'MINT Learning Platform for Kids',
     description:
-      'An interactive learning platform for children aged 5–12, with courses and quizzes designed to spark interest in computer science and natural sciences through play.',
+      'Interactive learning platform for children aged 5–12, designed to introduce STEM concepts through playful interaction. Focused on accessibility, intuitive design, and engaging user experience.',
     impact:
-      'Designed with children in mind — intuitive UI, playful interactions, and accessible content that makes STEM topics approachable and fun. Fully deployed and publicly accessible.',
+      'Demonstrates the ability to design user-friendly interfaces for specific audiences, with a focus on clarity, responsiveness, and engagement in educational contexts.',
     techs: ['HTML', 'CSS', 'JavaScript'],
     repo: 'https://github.com/Lekeb25/mint',
     demo: 'https://mintkenngas.onrender.com',
@@ -55,9 +55,9 @@ const projects: Project[] = [
     type: 'Frontend · API Integration',
     title: 'Pokémon Search Web App',
     description:
-      'A simple and interactive web application that allows users to search for Pokémon and instantly view their details, including images and key information. The app provides a clean interface for exploring Pokémon data in real time.',
+      'Lightweight web application that allows users to search and explore Pokémon data in real time. Built with a focus on simplicity and responsiveness.',
     impact:
-      'Built as a lightweight frontend project focused on API consumption and user interaction. It demonstrates dynamic data fetching, responsive UI updates, and a smooth search experience, making it easy for users to explore Pokémon without friction.',
+      'Demonstrates API integration, dynamic data fetching, and responsive UI updates. Shows the ability to work with external data sources and build interactive interfaces.',
     techs: ['HTML', 'CSS', 'JavaScript', 'REST API'],
     repo: 'https://github.com/Lekeb25/pokemon',
     demo: 'https://pokemon-9s9i.onrender.com',

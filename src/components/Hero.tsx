@@ -13,10 +13,12 @@ export default function Hero() {
             <br />&amp; CS Student.
           </h1>
           <p className={styles.bio}>
-            Motivated Computer Science student in my 5th semester at Hochschule Worms,
-            specializing in Software Engineering & Development. Passionate about fullstack
-            development, backend systems, and modern web technologies. I love building things
-            that work — and working with people who make them better.
+            Computer Science student in my 5th semester at Hochschule Worms, specializing in 
+            Software Engineering & Development. I build fullstack applications using Angular 
+            and Node.js, with a focus on clean architecture, backend systems, and scalable solutions.
+          </p>
+          <p className={styles.bio}>
+            Currently looking for a Praktikum · Based in Germany
           </p>
           <div className={styles.socials}>
             <a
