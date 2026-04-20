@@ -52,6 +52,11 @@ export default function Contact() {
         <p className="section-label">Get in touch</p>
         <h2 className="section-title">Contact</h2>
 
+        <div className={styles.introText}>
+          <p>I am currently looking for a <span className={styles.highlight}>Praktikum in Software Development</span>.</p>
+          <p>Available from March 2026 — motivated to contribute to a professional team, learn from experienced developers, and bring real value through my fullstack skills.</p>
+        </div>
+
         {sent ? (
           <div style={{ textAlign: 'center'}}>
           <p className={styles.successMsg}>

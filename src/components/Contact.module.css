@@ -90,3 +90,23 @@
   font-size: var(--text-md);
   margin-top: 20px;
 }
+
+.introText {
+  max-width: 650px;
+  margin: 0 auto 28px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.introText p {
+  font-size: var(--text-md);
+  color: var(--text-muted);
+  line-height: 1.7;
+}
+
+.highlight {
+  color: var(--accent);
+  font-weight: 500;
+}

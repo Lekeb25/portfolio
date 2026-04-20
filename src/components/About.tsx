@@ -1,13 +1,13 @@
 import styles from './About.module.css';
 
 const tags = [
-  'Team player',
-  'Fast learner',
-  'Backend-minded',
-  'Problem solver',
-  'Clean code advocate',
+  'Collaborative',
+  'Structured',
+  'Backend-focused',
+  'Problem solving',
+  'Clean code',
   'Curious',
-  'Open source enthusiast',
+  'Fast learner',
 ];
 
 export default function About() {
@@ -22,10 +22,9 @@ export default function About() {
             <span className={styles.icon}>◈</span>
             <h3>My way of thinking</h3>
             <p>
-              I believe the best software comes from curiosity and collaboration. I approach
-              every problem methodically — understanding it deeply before touching the keyboard.
-              Architecture first, code second. I care about building things that are clean,
-              maintainable, and actually useful.
+              I approach software development in a structured and analytical way. I focus on understanding 
+              problems before implementing solutions, and I prioritize clean architecture and maintainable code. <br />
+              I care about building systems that are reliable, scalable, and easy to understand for other developers.
             </p>
           </div>
 
@@ -33,10 +32,9 @@ export default function About() {
             <span className={styles.icon}>◎</span>
             <h3>My philosophy as a developer</h3>
             <p>
-              I enjoy working across the full stack, but I have a special interest in backend
-              systems and how things connect under the hood. I follow clean code principles,
-              think in APIs, and I&apos;m always asking: does this solution scale? Is it secure?
-              Will someone else understand it in six months?
+              I work across the full stack, with a strong interest in backend systems and how components 
+              interact. I focus on APIs, data flow, and performance. <br />
+              I continuously evaluate whether a solution is scalable, secure, and maintainable over time.
             </p>
           </div>
         </div>
@@ -44,11 +42,9 @@ export default function About() {
         <div className={styles.fullCard}>
           <h3>Beyond the code — who I am as a person</h3>
           <p>
-            Outside of tech, I read a lot — Camus, Dostoevsky, Hermann Hesse. I&apos;m also into
-            fitness: weight training, running, anything physical. And I genuinely believe
-            adults underestimate the value of play — I make time for it. I&apos;m someone who
-            thrives around people: collaborative projects where we push each other, learn
-            together, and build something worth showing.
+            Outside of tech, I enjoy reading authors like Albert Camus, Dostoevsky, and Hermann Hesse, which influence how I think about discipline, perspective, and personal growth.<br />
+            I am also interested in fitness, especially weight training and running, which help me stay focused and consistent.<br />
+            I value environments where people challenge each other, learn together, and build meaningful things — not just individually, but as a team.
           </p>
           <div className={styles.tags}>
             {tags.map((tag) => (
