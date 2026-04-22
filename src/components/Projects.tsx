@@ -33,7 +33,7 @@ const projects: Project[] = [
     description:
       'Fullstack e-commerce platform with a customer-facing shop and an admin dashboard for managing users, products, and orders. Built with a clear separation between frontend and backend, focusing on maintainability and scalability.',
     impact:
-      'Implements a structured fullstack architecture with authentication, role-based access, and database integration. Demonstrates real-world application design, API development, and data management across multiple systems.\n\nTeam of 4 · Duration: SOSE 2025.',
+      'Implements a structured fullstack architecture with authentication, role-based access, and database integration. Demonstrates real-world application design, API development, and data management across multiple systems.\n\nTeam of 4 · Hochschule Worms, 2025.',
     techs: ['Angular', 'Node.js', 'TypeScript', 'MongoDB', 'PostgreSQL', 'Express'],
     repo: 'https://github.com/Lekeb25/fullstack_sose25',
     demo: 'https://davinshop.netlify.app/',

@@ -14,8 +14,8 @@ export default function Hero() {
           </h1>
           <p className={styles.bio}>
             Computer Science student in my 5th semester at Hochschule Worms, specializing in 
-            Software Engineering & Development. I build fullstack applications using Angular 
-            and Node.js, with a focus on clean architecture, backend systems, and scalable solutions.
+            Software Engineering & Development. I build fullstack applications with Angular, 
+            Node.js and TypeScript, with a focus on backend systems, REST APIs, and clean architecture.
           </p>
           <p className={styles.bio}>
             Currently looking for a Praktikum · Based in Germany
