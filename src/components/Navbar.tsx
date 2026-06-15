@@ -32,7 +32,7 @@ export default function Navbar() {
         </ul>
 
         <a
-          href="/lebenslauf-kebodel-ngoumbe.pdf"
+          href="/Lebenslauf_kebodel_ngoumbe-kenne.pdf"
           download="lebenslauf-Kebodel-Ngoumbe.pdf"
           className={styles.cta}
         >
